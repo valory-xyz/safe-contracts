@@ -75,7 +75,8 @@ const userConfig: HardhatUserConfig = {
     hardhat: {
       allowUnlimitedContractSize: true,
       blockGasLimit: 100000000,
-      gas: 100000000
+      gas: 100000000,
+      hardfork: "london"
     },
     mainnet: {
       ...sharedNetworkConfig,
